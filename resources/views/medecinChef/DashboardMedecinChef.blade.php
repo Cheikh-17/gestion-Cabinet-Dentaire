@@ -1,3 +1,15 @@
+@extends('home')
+
+@section('title', 'about')
+
+@section('content')
+
+@endsection
+
+<body>
+    <h1>je suis dans Dashboard MedecinChef</h1>
+</body>
+
 <!DOCTYPE html>
 <html lang="en">
 <!-- [Head] start -->
@@ -15,7 +27,7 @@
   <meta name="author" content="phoenixcoded" />
 
   <!-- [Favicon] icon -->
-  <link rel="icon" href="../assets/images/favicon.svg" type="image/x-icon" />
+  <link rel="icon" href="{{asset('../assets/images/favicon.svg')}}" type="image/x-icon" />
 
   <!-- [Google Font : Public Sans] icon -->
   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
